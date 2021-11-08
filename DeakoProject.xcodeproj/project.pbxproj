@@ -1,0 +1,443 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0426F7A92518254B001260B9 /* CameraDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0426F7A82518254B001260B9 /* CameraDetailViewController.swift */; };
+		0426F7BF25194D04001260B9 /* CameraTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0426F7BE25194D04001260B9 /* CameraTableCell.swift */; };
+		048F097B2513F70000A96945 /* TrafficCameraTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 048F097A2513F70000A96945 /* TrafficCameraTableViewController.swift */; };
+		048F0986251505D700A96945 /* TrafficCam.swift in Sources */ = {isa = PBXBuildFile; fileRef = 048F0985251505D700A96945 /* TrafficCam.swift */; };
+		04B5FE492513E3CE00F60CA0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04B5FE482513E3CE00F60CA0 /* AppDelegate.swift */; };
+		04B5FE4F2513E3D200F60CA0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04B5FE4E2513E3D200F60CA0 /* Assets.xcassets */; };
+		04B5FE522513E3D200F60CA0 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04B5FE512513E3D200F60CA0 /* Preview Assets.xcassets */; };
+		04B5FE552513E3D200F60CA0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04B5FE532513E3D200F60CA0 /* LaunchScreen.storyboard */; };
+		2A7283A76E4F413E018F3F36 /* Pods_DeakoProject.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 54773A1C1BA338EAAFD00E5D /* Pods_DeakoProject.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0426F7A82518254B001260B9 /* CameraDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraDetailViewController.swift; sourceTree = "<group>"; };
+		0426F7BE25194D04001260B9 /* CameraTableCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraTableCell.swift; sourceTree = "<group>"; };
+		0426F7D2251BB7C7001260B9 /* DeakoProject_README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = DeakoProject_README.md; sourceTree = "<group>"; };
+		048F097A2513F70000A96945 /* TrafficCameraTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrafficCameraTableViewController.swift; sourceTree = "<group>"; };
+		048F0985251505D700A96945 /* TrafficCam.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrafficCam.swift; sourceTree = "<group>"; };
+		04B5FE452513E3CE00F60CA0 /* DeakoProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DeakoProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		04B5FE482513E3CE00F60CA0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		04B5FE4E2513E3D200F60CA0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		04B5FE512513E3D200F60CA0 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		04B5FE542513E3D200F60CA0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		04B5FE562513E3D200F60CA0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		54773A1C1BA338EAAFD00E5D /* Pods_DeakoProject.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DeakoProject.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9624F22F929BB4C690549198 /* Pods-DeakoProject.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DeakoProject.debug.xcconfig"; path = "Target Support Files/Pods-DeakoProject/Pods-DeakoProject.debug.xcconfig"; sourceTree = "<group>"; };
+		C408A3789588F85589BCF6CC /* Pods-DeakoProject.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DeakoProject.release.xcconfig"; path = "Target Support Files/Pods-DeakoProject/Pods-DeakoProject.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		04B5FE422513E3CE00F60CA0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2A7283A76E4F413E018F3F36 /* Pods_DeakoProject.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		048F09782513F67A00A96945 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				048F097A2513F70000A96945 /* TrafficCameraTableViewController.swift */,
+				0426F7A82518254B001260B9 /* CameraDetailViewController.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		048F09792513F6AD00A96945 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				048F0985251505D700A96945 /* TrafficCam.swift */,
+				0426F7BE25194D04001260B9 /* CameraTableCell.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		04B5FE3C2513E3CE00F60CA0 = {
+			isa = PBXGroup;
+			children = (
+				04B5FE472513E3CE00F60CA0 /* DeakoProject */,
+				04B5FE462513E3CE00F60CA0 /* Products */,
+				5CE4FB15FE8E731DA3A76152 /* Pods */,
+				0DF984CAE900C7AE0505CBB3 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		04B5FE462513E3CE00F60CA0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				04B5FE452513E3CE00F60CA0 /* DeakoProject.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		04B5FE472513E3CE00F60CA0 /* DeakoProject */ = {
+			isa = PBXGroup;
+			children = (
+				04B5FE482513E3CE00F60CA0 /* AppDelegate.swift */,
+				048F09792513F6AD00A96945 /* Models */,
+				048F09782513F67A00A96945 /* Views */,
+				04B5FE4E2513E3D200F60CA0 /* Assets.xcassets */,
+				04B5FE532513E3D200F60CA0 /* LaunchScreen.storyboard */,
+				04B5FE562513E3D200F60CA0 /* Info.plist */,
+				04B5FE502513E3D200F60CA0 /* Preview Content */,
+				0426F7D2251BB7C7001260B9 /* DeakoProject_README.md */,
+			);
+			path = DeakoProject;
+			sourceTree = "<group>";
+		};
+		04B5FE502513E3D200F60CA0 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				04B5FE512513E3D200F60CA0 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		0DF984CAE900C7AE0505CBB3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				54773A1C1BA338EAAFD00E5D /* Pods_DeakoProject.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5CE4FB15FE8E731DA3A76152 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9624F22F929BB4C690549198 /* Pods-DeakoProject.debug.xcconfig */,
+				C408A3789588F85589BCF6CC /* Pods-DeakoProject.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		04B5FE442513E3CE00F60CA0 /* DeakoProject */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04B5FE592513E3D200F60CA0 /* Build configuration list for PBXNativeTarget "DeakoProject" */;
+			buildPhases = (
+				ABDE8D06118291CF5ABAA723 /* [CP] Check Pods Manifest.lock */,
+				04B5FE412513E3CE00F60CA0 /* Sources */,
+				04B5FE422513E3CE00F60CA0 /* Frameworks */,
+				04B5FE432513E3CE00F60CA0 /* Resources */,
+				5B930D13BC42EBF6EB61B23E /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DeakoProject;
+			productName = DeakoProject;
+			productReference = 04B5FE452513E3CE00F60CA0 /* DeakoProject.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		04B5FE3D2513E3CE00F60CA0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1170;
+				LastUpgradeCheck = 1170;
+				ORGANIZATIONNAME = "Salina Servantez";
+				TargetAttributes = {
+					04B5FE442513E3CE00F60CA0 = {
+						CreatedOnToolsVersion = 11.7;
+					};
+				};
+			};
+			buildConfigurationList = 04B5FE402513E3CE00F60CA0 /* Build configuration list for PBXProject "DeakoProject" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 04B5FE3C2513E3CE00F60CA0;
+			productRefGroup = 04B5FE462513E3CE00F60CA0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				04B5FE442513E3CE00F60CA0 /* DeakoProject */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		04B5FE432513E3CE00F60CA0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04B5FE552513E3D200F60CA0 /* LaunchScreen.storyboard in Resources */,
+				04B5FE522513E3D200F60CA0 /* Preview Assets.xcassets in Resources */,
+				04B5FE4F2513E3D200F60CA0 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5B930D13BC42EBF6EB61B23E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DeakoProject/Pods-DeakoProject-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DeakoProject/Pods-DeakoProject-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-DeakoProject/Pods-DeakoProject-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		ABDE8D06118291CF5ABAA723 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DeakoProject-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		04B5FE412513E3CE00F60CA0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04B5FE492513E3CE00F60CA0 /* AppDelegate.swift in Sources */,
+				048F097B2513F70000A96945 /* TrafficCameraTableViewController.swift in Sources */,
+				0426F7BF25194D04001260B9 /* CameraTableCell.swift in Sources */,
+				0426F7A92518254B001260B9 /* CameraDetailViewController.swift in Sources */,
+				048F0986251505D700A96945 /* TrafficCam.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		04B5FE532513E3D200F60CA0 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				04B5FE542513E3D200F60CA0 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		04B5FE572513E3D200F60CA0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.7;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		04B5FE582513E3D200F60CA0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.7;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		04B5FE5A2513E3D200F60CA0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9624F22F929BB4C690549198 /* Pods-DeakoProject.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"DeakoProject/Preview Content\"";
+				DEVELOPMENT_TEAM = DPU5VJEBC9;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = DeakoProject/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Person.DeakoProject;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		04B5FE5B2513E3D200F60CA0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C408A3789588F85589BCF6CC /* Pods-DeakoProject.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"DeakoProject/Preview Content\"";
+				DEVELOPMENT_TEAM = DPU5VJEBC9;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = DeakoProject/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Person.DeakoProject;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		04B5FE402513E3CE00F60CA0 /* Build configuration list for PBXProject "DeakoProject" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04B5FE572513E3D200F60CA0 /* Debug */,
+				04B5FE582513E3D200F60CA0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04B5FE592513E3D200F60CA0 /* Build configuration list for PBXNativeTarget "DeakoProject" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04B5FE5A2513E3D200F60CA0 /* Debug */,
+				04B5FE5B2513E3D200F60CA0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 04B5FE3D2513E3CE00F60CA0 /* Project object */;
+}
